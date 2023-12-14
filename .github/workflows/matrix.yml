@@ -1,4 +1,10 @@
 name: Matrix
+
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   example_matrix:
     strategy:
